@@ -7,7 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open:dev":"cypress open --config-file config-dev.ts --browser chrome",
+    "cypress:open:prod":"cypress open --config-file config-prod.ts --browser chrome"
   },
   "devDependencies": {
     "cypress": "^15.8.2",
