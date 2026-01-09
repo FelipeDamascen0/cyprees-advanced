@@ -1,0 +1,19 @@
+{
+  "name": "cyprees-advanced",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.8.2",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-multi-reporters": "^2.0.5",
+    "mocha-junit-reporter": "^2.2.1",
+    "typescript": "^5.9.3"
+  }
+}
